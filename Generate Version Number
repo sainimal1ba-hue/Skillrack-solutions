@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+   int x,y;
+   char ch1,ch2;
+   scanf("%c %c\n%d %d",&ch1,&ch2,&x,&y);
+   for(char a=ch1;a<=ch2;a++){
+      for(int i=x;i<=y;i++){
+         for(char b=ch1;b<=ch2;b++){
+            for(int j=x;j<=y;j++){
+                printf("%c%d.%c.%d\n",a,i,b,j);
+            }
+         }
+      }
+   }
+}
