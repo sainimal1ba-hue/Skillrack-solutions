@@ -1,0 +1,18 @@
+int main(){
+   int a,b,c;
+   char s;
+   scanf("%d %d\n%c %d",&a,&b,&s,&c);
+   if(s=='w'||s=='W'){
+      if(a-c>0){
+         printf("yes");
+      }else{
+         printf("no");
+      }
+   }else if(s=='a'||s=='A'){
+      if(b-c>0){
+         printf("yes");
+      }else{
+         printf("no");
+      }
+  }
+}
