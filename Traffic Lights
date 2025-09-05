@@ -1,0 +1,9 @@
+int main(){
+   char a;
+   scanf("%c",&a);
+   if(a=='R'||a=='A'||a=='G'){
+      printf("Valid");
+   }else{
+      printf("Invalid");
+   }
+}
