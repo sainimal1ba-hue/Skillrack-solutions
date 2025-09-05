@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+   char a,b;
+   scanf("%c %c",&a,&b);
+   if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u'){
+      if(b=='a'||b=='e'||b=='i'||b=='o'||b=='u'){
+         printf("Yes");
+      }else{
+         printf("No");
+      }
+   }else{
+      if(b=='a'||b=='e'||b=='i'||b=='o'||b=='u'){
+         printf("No");
+      }else{
+         printf("Yes");
+      }
+   }
+}
