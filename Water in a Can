@@ -1,0 +1,11 @@
+#include <studio.h>
+#include <stdlib.h>
+int main(){
+   int l,c1,c2;
+   scanf("%d\n%d %d",&l,&c1,&c2);
+   if(c1>c2){
+       printf("%d",l-c2);
+   }else{
+       printf("%d",l-c1);
+   }
+}
