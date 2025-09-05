@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+   int m;
+   scanf("%d",&m);
+   if(m%((m%10)+(m/10)%10)==0){
+      printf("YES");
+   }else{
+      printf("NO");
+   }
+}
