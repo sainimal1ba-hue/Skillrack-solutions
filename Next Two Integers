@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+   int temp,t,r;
+   scanf("%d %d",&t,&r);
+   temp=r*t;
+   printf("%d %d",temp,temp*r);
+}
